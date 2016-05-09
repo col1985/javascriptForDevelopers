@@ -1,4 +1,4 @@
-var sayHello2 = function() {
+var sayHello2 = function () {
   console.log('Hello World 2');
 }
 

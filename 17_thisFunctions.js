@@ -1,4 +1,4 @@
-var getSurname = function() {
+var getSurname = function () {
   console.log('Surname is: ' + this.surname);
 }
 
@@ -10,4 +10,4 @@ var obi_wan = {
 };
 obi_wan.getSurname = getSurname;
 
-obi_wan.getSurname(); // 'Surname is López'
+console.log(obi_wan.getSurname()); // 'Surname is López'

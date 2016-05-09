@@ -1,9 +1,10 @@
 var luko = {
   firstname: 'Luko'
 };
-luko.getFullName = function() {
+luko.getFullName = function () {
   var that = this;
-  var printFullName = function(surname) {
+  var printFullName = function (surname) {
+      // this here refers to the Window object
       console.log('Full Name: ', this.firstname + ' ' + this.surname);
       console.log('Full Name: ', that.firstname + ' ' + surname);
     }

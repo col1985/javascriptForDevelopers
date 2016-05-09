@@ -1,8 +1,10 @@
+// Javascript hoists the declaration to the top but not the assignment of the variable
+
 var currentLocation = 'Waterford';
 
 function whereAreYa() {
   console.log(currentLocation);
-  var currentLocation = 'Dublin'; // Javascript does not hoist this to the top of the function
+  var currentLocation = 'Dublin';
   console.log(currentLocation);
 }
 

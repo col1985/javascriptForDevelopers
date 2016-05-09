@@ -1,8 +1,8 @@
-var sayHello2 = function() {
+var sayHello2 = function () {
   console.log('Hello World 2');
 }
 
-var sayHello4 = function() {
+var sayHello4 = function () {
   console.log('Hello World 4');
 }
 
